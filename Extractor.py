@@ -134,5 +134,6 @@ if __name__ == '__main__':
     df = pd.concat([title_df, desc_df], axis=1)
 
     # write to csv file
-    df.to_csv('data/course_data.csv')
+    df.to_csv('data/course_data.csv', index=False)
+
 
